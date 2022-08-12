@@ -1,0 +1,24 @@
+@media screen and (max-width:1000px){
+    
+    .songitems{
+        width: 90%;
+        height: 10%;
+    }
+    .songlist{
+        width: 90%;
+        
+    }
+    .container{
+        width: 95%;
+    }
+    .icons{
+        width: 25vw;
+    }
+    .songinfo img{
+        width: 20px;
+    }
+    .fa-solid{
+        margin: 4px;
+    }
+
+}
