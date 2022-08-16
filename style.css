@@ -32,7 +32,10 @@ ul{
 .snav li a:hover{
     font-size: 18px;
 }
-
+.add{
+    position: absolute;
+    right:0;
+}
 .container{
     min-height: 70vh;
     background-color: black;
@@ -40,8 +43,9 @@ ul{
     margin: 20px auto;
     width: 70%;
     border-radius: 6px;
-    background-image:url("imgf/Black-Music-Background.jpg");
-    background-size: 750px;
+    background-image:url("imgf/Black-Music-Background-removebg-preview.png");
+    background-size:800px;
+    background-repeat: no-repeat;
     
 
 }
@@ -55,6 +59,10 @@ ul{
 
 .songs{
     margin: 35px 0px;
+    height: 56vh;
+    overflow-x:hidden ;
+    overflow-y: scroll;
+
 }
 .songitems{
     width:300px;
@@ -92,11 +100,12 @@ ul{
 .icons{
     font-size: 30px;
     display: flex;
+    flex-direction: row;
     margin: 10px 0px;
     cursor: pointer;
 }
 .fa-solid{
-    margin: 8px;
+    margin: 10px;
 }
 .songinfo{
     font-size: 20px;
@@ -105,4 +114,40 @@ ul{
 .songinfo img{
     opacity: 0;
     transition: opacity 0.5s ease-in;
+}
+/* about.html ke liye */
+.logs2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutswing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainswing{
+    background-color: black;
+    width: 60vw;
+    height: 100vh;
+    color: white;
+    position: absolute;
+    top: 20%;
+    border:solid 10px black;
+    border-radius: 10px;
+    
+}
+.mainswing img{
+    height: 100vh;
+    width: 60vw;
+}
+.footer{
+    color: black;
+    margin: 5px 0px 0px 0px;
+}
+.res{
+    width: 300px;
+    height: 300px;
+    border: black 2px solid;
 }
