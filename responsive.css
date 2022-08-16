@@ -12,13 +12,26 @@
         width: 95%;
     }
     .icons{
-        width: 25vw;
+        width: 40vw;
     }
     .songinfo img{
         width: 20px;
     }
     .fa-solid{
-        margin: 4px;
+        margin: 10px;
+    }
+    .mainswing{
+        height: 70vh;
+        width: 92vw;
+        top: 15%;
+    }
+    .mainswing img{
+        height: 70vh;
+        width: 92vw;
+    }
+    .footer2{
+        color: white;
+        margin: 5px 0px;
     }
 
 }
